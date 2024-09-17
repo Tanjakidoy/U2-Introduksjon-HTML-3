@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+img {
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
