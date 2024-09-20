@@ -44,6 +44,12 @@ nav a[aria-current='page'] {
 main {
   margin-left: 5, rem;
   padding: 2rem;
+ }
+
+img {
+  border-radius: 3px;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
