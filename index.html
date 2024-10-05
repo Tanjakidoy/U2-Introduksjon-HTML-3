@@ -1,50 +1,64 @@
-<!-- HTML INTRODUCTION PART 1 -->
+<!-- INTRODUKSJON - HTML -->
 
-<!-- All HTML documents must start with a <!DOCTYPE> declaration -->
-<!-- The HTML declaration is not an HTML tag -->
-<!-- The lang attribute is a Global Attribute -->
+<!DOCTYPE html><!-- All HTML documents must start with a <!DOCTYPE> declaration -->
+<html lang="en"><!-- The lang attribute is a Global Attribute -->
 
-<!DOCTYPE html>
-<html lang="en">
+<!-- THE <HEAD> ELEMENT -->
 
+  <head>
+
+<!-- The HTML <head> element is a container for the following elements: 
+<title>, <style>, <meta>, <link>, <script>, and <base>.-->
+<!-- The <head> element is placed between the <html> tag and the <body> tag.-->
 <!-- The <head> element is a container for metadata (data about data) -->
-<!-- The <head> element is placed between the <html> tag and the <body> tag -->
 
-<head>
 
-<!-- The <title> tag is required in HTML documents! -->
+<!-- THE <TITLE> ELEMENT -->
 
-<title>Home</title>
+<title>Home</title><!-- The <title> tag is required in HTML documents! -->
 
-<!-- The <meta> tag defines metadata about an HTML document -->
-<!-- Metadata is data (information) about data -->
-<!-- <meta> tags always go inside the <head> element -->
-<!-- Note that <meta> is an empty element, and does not need a closing tag -->
+<!-- THE <META> ELEMENT -->
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width" />
 
-<!-- The <link> element is an empty element, it contains attributes only -->
-<!-- The <link> tag defines the relationship between the current document and an external resource -->
+<!-- <meta> tags always go inside the <head> element.
+The <meta> tag defines metadata about an HTML document. 
+Metadata is data (information) about data. Note that <meta> is an empty element, 
+and does not need a closing tag -->
+
+
+<!-- THE <LINK> ELEMENT -->
 
 <link rel="stylesheet" href="styles.css" />
 
-<!-- The <script> element is used to define client-side JavaScripts -->
+<!-- The <link> tag defines the relationship between the current document and an external resource.
+The <link> element is an empty element, it contains attributes only -->
+
+
+<!-- THE <SCRIPT> ELEMENT -->
 
 <script type="module" src="script.js"></script>
+
+<!-- The <script> element is used to define client-side JavaScripts -->
 
 </head>
 
 
-<!-- HTML INTRODUCTION PART 2 -->
+<!-- THE <BODY> ELEMENT -->
 
 <body>
 
 <!-- The <body> tag defines the document's body -->
 
+
+<!-- THE <HEADER> ELEMENT -->
+
 <header>
 
 <!-- The <header> element represents a container for introductory content or a set of navigational links -->
+
+<!-- THE <NAV> ELEMENT -->
 
 <nav>
 
@@ -56,16 +70,20 @@
 </nav>
 
 
-<!-- HTML INTRODUCTION PART 3 -->
+<!-- THE <MAIN> ELEMENT -->
+
+<main>
 
 <!-- The <main> tag specifies the main content of a document -->
 <!-- There must not be more than one <main> element in a document -->
 
-<main>
+<!-- THE <SECTION> ELEMENT -->
+
+<section> 
 
 <!-- The <section> tag defines a section in a document -->
 
-<section> 
+
 <h1>KURS I WEBUTVIKLING PÅ KODELOFTET</h1>
 
 <p>"Kodeloftet" er et kurs i grunnleggende webutvikling, <br> der deltakerne lærer seg å benytte HTML, CSS og JavaScript <br> for å bygge sine egne nettsider fra bunnen av.</p>
@@ -80,14 +98,16 @@
   
 <img src="Jobloop.jpg" alt="Jobloop Logo" width="500" height="400">
 
-  <h1>KODEHODE</h1>
+<h1>KODEHODE</h1>
 
-  <p>Kodehode er det største arbeidsrettede tilbudet i Jobloop og er i dag <br>en ledende aktør for inkluderende rekruttering innen IT.</p>
-  <p>"Kodehode" rekrutterer kandidater som av ulike årsaker står utenfor <br>arbeidslivet og tilbyr opplæring i frontend, backend, og fullstack-utvikling <br>eller IT-drift og service.<br>Kodeloftet et 3 mnd kurs som kan regnes som et forkurs til Kodehodet.</p>
+<p>Kodehode er det største arbeidsrettede tilbudet i Jobloop og er i dag <br>en ledende aktør for inkluderende rekruttering innen IT.</p>
+<p>"Kodehode" rekrutterer kandidater som av ulike årsaker står utenfor <br>arbeidslivet og tilbyr opplæring i frontend, backend, og fullstack-utvikling <br>eller IT-drift og service.<br>Kodeloftet et 3 mnd kurs som kan regnes som et forkurs til Kodehodet.</p>
 
-  <img src="HTML.jpg" alt="HTML Tag" width="500" height="400">
+<img src="HTML.jpg" alt="HTML Tag" width="500" height="400">
 
-  <h1>OVERSIKT OVER UNDERVISNINGER PÅ KODELOFTET</h1>
+<h1>OVERSIKT OVER UNDERVISNINGER PÅ KODELOFTET</h1>
+
+<!-- THE <UL> ELEMENT -->
 
 <!-- The <ul> tag defines an unordered (bulleted) list -->
 <!-- Use the <ul> tag together with the <li> tag to create unordered lists -->
@@ -118,11 +138,14 @@
   <li>Veien videre (U24)</li>
   </ul>
     </section>
-    </main>
 
- <!-- The <footer> tag defines a footer for a document or section. -->
+  </main>
 
+<!-- THE <FOOTER> ELEMENT -->
+ 
 <footer>
+
+<!-- The <footer> tag defines a footer for a document or section. -->
 
 <p>Kodeloftet</p>
 <p>Gruppe 9</p>
